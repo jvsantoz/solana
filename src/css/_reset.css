@@ -7,4 +7,7 @@
 :root {
     font-family:'Poppins';
     font-size: 62.5%;
+
+    --color-gradient: linear-gradient(90deg, rgba(153, 69, 255, 1) 0%, rgba(135, 82, 243, 1) 19%, rgba(84, 151, 213, 1) 42%, rgba(67, 180, 202, 1) 55%, rgba(40, 224, 185, 1) 67%, rgba(25, 251, 155, 1) 100%);
 }
+

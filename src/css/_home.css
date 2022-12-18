@@ -1,5 +1,7 @@
 body {
-    background-color: black;
+    background-image: url(../assets/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .navbar {
@@ -29,4 +31,75 @@ body {
     justify-self: end;
 
     color: #fff;
+}
+
+.main_text_container {
+    width: 79rem;
+
+    margin-top: 7rem;
+    margin-left: 17rem;
+}
+
+.container_main h1 {
+    font-size: 6.4rem;
+    font-weight: 600;
+    line-height: 9.6rem;
+
+    padding-bottom: 3rem;
+
+    color: #fff;
+}
+
+.container_main span {
+    font-size: 6.4rem;
+    font-weight: 600;
+
+
+    background: -webkit-linear-gradient(90deg,
+        rgba(153, 69, 255, 1) 0%,
+        rgba(135, 82, 243, 1) 19%,
+        rgba(84, 151, 213, 1) 42%,
+        rgba(67, 180, 202, 1) 55%,
+        rgba(40, 224, 185, 1) 67%,
+        rgba(25, 251, 155, 1) 100%);
+    
+    background: linear-gradient(90deg, 
+        rgba(153, 69, 255, 1) 0%, 
+        rgba(135, 82, 243, 1) 19%, 
+        rgba(84, 151, 213, 1) 42%, 
+        rgba(67, 180, 202, 1) 55%, 
+        rgba(40, 224, 185, 1) 67%, 
+        rgba(25, 251, 155, 1) 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+
+.container_main p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 3rem;
+
+    padding-bottom: 3rem;
+
+    color: #fff;
+}
+
+.button {
+    font-size: 1.6rem;
+    font-weight: 500;
+    
+    border: 0.1rem solid #fff;
+    background-color: transparent;
+    color: #fff;
+
+    margin-right: 3rem;
+    padding: 1.5rem 3rem;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+
+    transition: all 0.4s ease;
 }
