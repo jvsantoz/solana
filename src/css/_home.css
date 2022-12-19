@@ -35,6 +35,7 @@ body {
 
 .main_text_container {
     width: 79rem;
+    height: 52rem;
 
     margin-top: 7rem;
     margin-left: 17rem;
@@ -102,4 +103,98 @@ body {
     color: #000;
 
     transition: all 0.4s ease;
+}
+
+.container_logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_logos h5 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+    text-transform: uppercase;
+    
+    background: -webkit-linear-gradient(90deg,
+                rgba(153, 69, 255, 1) 0%,
+                rgba(135, 82, 243, 1) 19%,
+                rgba(84, 151, 213, 1) 42%,
+                rgba(67, 180, 202, 1) 55%,
+                rgba(40, 224, 185, 1) 67%,
+                rgba(25, 251, 155, 1) 100%);
+    
+        background: linear-gradient(90deg,
+                rgba(153, 69, 255, 1) 0%,
+                rgba(135, 82, 243, 1) 19%,
+                rgba(84, 151, 213, 1) 42%,
+                rgba(67, 180, 202, 1) 55%,
+                rgba(40, 224, 185, 1) 67%,
+                rgba(25, 251, 155, 1) 100%);
+    
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.container_logos img {
+    margin-top: 3rem;
+}
+
+.container_numbers_community {
+
+}
+
+.container_numbers_community h2 {
+    font-size: 6.4rem;
+    line-height: 9.6rem;
+    font-weight: 600;
+
+    width: 66rem;
+    margin-top: 18rem;
+    margin-left: 17rem;
+    color: #fff;
+}
+
+.container_numbers_community span {
+    background: -webkit-linear-gradient(90deg,
+        rgba(153, 69, 255, 1) 0%,
+        rgba(135, 82, 243, 1) 19%,
+        rgba(84, 151, 213, 1) 42%,
+        rgba(67, 180, 202, 1) 55%,
+        rgba(40, 224, 185, 1) 67%,
+        rgba(25, 251, 155, 1) 100%);
+    
+    background: linear-gradient(90deg,
+        rgba(153, 69, 255, 1) 0%,
+        rgba(135, 82, 243, 1) 19%,
+        rgba(84, 151, 213, 1) 42%,
+        rgba(67, 180, 202, 1) 55%,
+        rgba(40, 224, 185, 1) 67%,
+        rgba(25, 251, 155, 1) 100%);
+    
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.numbers_community {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    
+    width: 120rem;
+    margin: 6rem auto;
+    color: #fff;
+}
+
+.numbers_community h3 {
+    font-size: 9rem;
+    font-weight: 400;
+    line-height: 13.2rem;
+}
+
+.numbers_community p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
 }
