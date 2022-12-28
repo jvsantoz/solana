@@ -2,6 +2,8 @@ body {
     background-image: url(../assets/background1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+
+    color: #fff;
 }
 
 .header_container {
@@ -9,7 +11,7 @@ body {
     height: 52rem;
 
     margin-top: 7rem;
-    margin-left: 13rem;
+    margin-left: 6rem;
 }
 
 .header_container h1 {
@@ -19,7 +21,6 @@ body {
 
     padding-bottom: 3rem;
 
-    color: #fff;
 }
 
 .header_container span {
@@ -54,7 +55,6 @@ body {
 
     padding-bottom: 3rem;
 
-    color: #fff;
 }
 
 
@@ -125,8 +125,7 @@ body {
 
     width: 66rem;
     margin-top: 18rem;
-    margin-left: 13rem;
-    color: #fff;
+    margin-left: 6rem;
 }
 
 .container_numbers_community span {
@@ -156,9 +155,7 @@ body {
     justify-items: start;
     
     width: 120rem;
-    margin: 1rem auto;
-    padding: 6rem;
-    color: #fff;
+    margin: 7rem 6rem;
 }
 
 .numbers_community h3 {
@@ -171,4 +168,90 @@ body {
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 2.4rem;
+}
+
+.more_container {
+    display: grid;
+    grid-template-columns: 2.2fr 1fr;
+
+    margin-top: 20rem;
+    padding: 0 6rem;
+}
+
+.more_container h2 {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 9rem;
+    
+    text-align: end;
+    align-self: center;
+
+    background: -webkit-linear-gradient(90deg,
+        rgba(153, 69, 255, 1) 0%,
+        rgba(135, 82, 243, 1) 19%,
+        rgba(84, 151, 213, 1) 42%,
+        rgba(67, 180, 202, 1) 55%,
+        rgba(40, 224, 185, 1) 67%,
+        rgba(25, 251, 155, 1) 100%);
+    
+    background: linear-gradient(90deg,
+        rgba(153, 69, 255, 1) 0%,
+        rgba(135, 82, 243, 1) 19%,
+        rgba(84, 151, 213, 1) 42%,
+        rgba(67, 180, 202, 1) 55%,
+        rgba(40, 224, 185, 1) 67%,
+        rgba(25, 251, 155, 1) 100%);
+    
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.more_container p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.more_container h4 {
+    font-size: 3.2rem;
+    font-weight: 600;
+
+    margin-left: 2rem;
+}
+
+
+.more_container h5 {
+    font-size: 3.6rem;
+    font-weight: 400;
+}
+
+.more_container h6 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+
+.card_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 6rem;
+}
+
+.card_info {
+    width: 38rem;
+}
+
+.card_info span {
+    color: #00AC11;
+}
+
+.card_title {
+    display: flex;
+}
+
+.card_title img {
+    width: 3.2rem;
 }
