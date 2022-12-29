@@ -1,0 +1,81 @@
+.slider_build {
+    margin-top: 10rem;
+    margin-left: 6rem;
+}
+
+.slider_build h2 {
+    font-size: 6.4rem;
+    font-weight: 600;
+
+    background: -webkit-linear-gradient(90deg,
+        rgba(153, 69, 255, 1) 0%,
+        rgba(135, 82, 243, 1) 19%,
+        rgba(84, 151, 213, 1) 42%,
+        rgba(67, 180, 202, 1) 55%,
+        rgba(40, 224, 185, 1) 67%,
+        rgba(25, 251, 155, 1) 100%);
+    
+    background: linear-gradient(90deg,
+        rgba(153, 69, 255, 1) 0%,
+        rgba(135, 82, 243, 1) 19%,
+        rgba(84, 151, 213, 1) 42%,
+        rgba(67, 180, 202, 1) 55%,
+        rgba(40, 224, 185, 1) 67%,
+        rgba(25, 251, 155, 1) 100%);
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.slider_build h4 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    margin: 2rem 0;
+}
+
+.slider_build p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+
+.slider_wallpaper {
+    width: 75rem;
+
+    border-radius: 3rem;
+}
+
+.slider_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle_logo {
+    display: flex;
+    width: 69rem;
+
+    margin-top: 3rem;
+}
+
+.subtitle_logo p {
+    margin-left: 3rem;
+}
+
+.logos_container {
+    display: flex;
+    margin: 3rem 0;
+}
+
+.logos_container img {
+    width: 20rem;
+    
+}
+
+.logos_container_img {
+    width: 50rem;
+
+    margin: 3rem 0;
+}
